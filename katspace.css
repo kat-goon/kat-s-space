@@ -1,0 +1,164 @@
+
+
+#container{
+    margin: auto;
+    width: 70%;
+}
+body{
+    background-color: rgb(199, 178, 153);
+    cursor: url(images/sootcursor.png), pointer;
+    background-image: url(images/room4.jpg);
+}
+h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 300%;
+}
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+/* THIS IS THE CAT */
+.catContainer{
+    height: 500px;
+    width: 350px;
+    background-color: transparent;
+    position: relative;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.cat{
+    position: relative;
+    top: 150px;
+    left: 50px;
+}
+.face{
+    background-color: #33292b;
+    height: 90px;
+    width: 150px;
+    border-radius: 30px;
+
+}
+.ear1, .ear2{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #33292b;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: relative;
+    z-index: -1;
+}
+.ear1{
+    bottom: 35px;
+    transform: rotate(-30deg);
+
+}
+.ear2{
+    bottom: 15px;
+    left: 70px;
+    transform: rotate(30deg);
+}
+.inner1{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #d36149;
+    border-left: 25px transparent;
+    right: 25px;
+    position: relative;
+}
+.inner2{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #d36149;
+    border-right: 25px transparent;
+    position: relative;
+}
+.eye1, .eye2{
+    background-color: #d2873b;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+}
+.eye1{
+    bottom: 30px;
+    left: -80px;
+}
+.eye2{
+    bottom: 7px;
+    left: 100px;
+}
+.eyeball{
+    background-color: #262626 ;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+.nose{
+    height: 0;
+    width: 0;
+    border-top: 8px solid #d36149;
+    border-left: 7px solid transparent;
+    position: relative;
+    bottom: 100px;
+    left: 70px;
+}
+.l1, .l2{
+    background-color: #d36149;
+    height: 8px;
+    width: 1px;
+    position: relative;
+}
+.l1{
+    transform: rotate(45deg);
+    right: 4px;
+    bottom: -108px;
+}
+.l2{
+    transform: rotate(-45deg);
+    bottom: -100px;
+    left: 3px;
+}
+.body{
+    background-color: #33292b;
+    height: 120px;
+    width: 130px;
+    position: relative;
+    left: 30px;
+    bottom: 5px;
+    border-radius: 0 65px 0 0;
+}
+.paw1, .paw2{
+    background-color: #33292b;
+    height: 10px;
+    width: 22px;
+    position: relative;
+    border-radius: 0 0px 10px 10px;
+}
+.paw1{
+    top: 120px;
+}
+.paw2{
+    top: 110px;
+    left: 50px;
+}
+.tail{
+    background-color: #33292b;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+    border-radius: 0 20px 20px 0;
+}
+    
+
+
+
+ 
