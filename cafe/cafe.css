@@ -1,0 +1,19 @@
+
+
+#container{
+    margin: auto;
+    width: 70%;
+}
+body{
+    background-color: rgb(199, 178, 153);
+    background-image: url(../images/tea1.jpg);
+    cursor: url(../images/sootcursor.png), pointer;
+}
+h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+mark.brown {
+    color:rgb(91, 62, 18);
+    background: none;
+}
