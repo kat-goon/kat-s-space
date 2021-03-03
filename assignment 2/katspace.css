@@ -1,0 +1,54 @@
+
+
+#container{
+    margin: auto;
+    width: 70%;
+}
+body{
+    background-color: rgb(199, 178, 153);
+    cursor: url(images/sootcursor.png), pointer;
+    padding: 0;
+}
+
+/* cat bus animation */
+.bg{
+    position: relative;
+    background: transparent url(images/catbus.png);
+    height: 100vh;
+    background-size: 550px 100px;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    animation: animate 15s linear infinite;
+    padding: 0;
+
+}
+@keyframes animate{
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 0;
+    }
+}
+/* end of animation */
+
+h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 300%;
+    position: absolute;
+    top: 70px;
+}
+p.disney{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    top: 150px;
+}
+
+    
+
+
+
+ 
