@@ -4,16 +4,180 @@
     margin: auto;
     width: 70%;
 }
+
 body{
     background-color: rgb(199, 178, 153);
     background-image: url(../images/tea1.jpg);
     cursor: url(../images/sootcursor.png), pointer;
 }
-h1{
+
+/* HEADINGS */
+h1.tea{
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    z-index: 1;
 }
 mark.brown {
     color:rgb(91, 62, 18);
     background: none;
 }
+h1.cake{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    bottom: -110px;
+}
+h1.mac{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    bottom: -980px;
+}
+h1.tarts{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    bottom: -1850px;
+}
+h2{
+    color: rgb(123, 79, 40);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+}
+
+
+
+/* CAKE DRAWING */
+#drawCake{
+    position: absolute;
+    bottom: -410px;
+    z-index: 1;
+}
+#drawCake:hover{
+    opacity: 0.8;;
+}
+.top{
+    width: 0;
+	height: 0;
+	border-left: 65px solid transparent;
+	border-right: 342px solid transparent;
+	border-bottom: 90px solid rgb(136, 92, 38);
+    transform: rotateX(-0.2turn);
+    position: relative;
+    top: 32px;
+}
+.filling{
+    height: 150px;
+    width: 400px;
+    background-color: rgb(87, 54, 19);
+
+}
+.crust{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(52, 29, 6);
+}
+
+
+
+
+/* MACARON DRAWING */
+#macaron{
+    position: absolute;
+    bottom: -1200px;
+    z-index: 1;
+}
+#macaron:hover{
+    opacity: 0.8;
+}
+.macaron-flat{
+    width: 191px;
+    height: 60px;
+    background: rgb(212, 237, 173);
+    border-radius: 100px / 50px;
+    transform: rotateX(-0.2turn);
+    position: relative;
+    bottom: -35px;
+    left: 4px;
+}
+.macaron-top {
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: rgb(188, 223, 158);
+    
+}
+.macaron-filling{
+    height: 20px;
+    width: 180px;
+    border-radius: 15px;
+    background-color: rgb(246, 252, 241);
+    position: relative;
+    left: 10px;
+
+}
+.macaron-bottom{
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: rgb(188, 223, 158);
+    position: absolute;
+    bottom: -4000;
+}
+
+
+
+/* TART DRAWING */
+#pudding{
+    position: absolute;
+    bottom: -2200px;
+    z-index: 1;
+}
+#pudding:hover{
+    opacity: 0.8;
+}
+.blueberry{
+    height: 50px;
+    width: 60px;
+    background-color: rgb(63, 71, 159);
+    border-radius: 50%;
+    position: relative;
+    bottom: -80px;
+    left: 120px;
+    z-index: 1;
+}
+.pudding-top{
+    width: 300px;
+    height: 70px;
+    background: rgb(237, 227, 173);
+    border-radius: 100px / 50px;
+    transform: rotateX(-3turn);
+    position: relative;
+    bottom: -41px;
+}
+.pudding-side{
+    height: 140px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: rgb(222, 191, 124);
+}
+.pudding-cup{
+    border-bottom: 60px solid rgb(223, 223, 223);
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	height: 0;
+	width: 280px;
+    transform: rotate(180deg);
+    position: relative;
+    bottom: 20px;
+    left: -20px;
+    z-index: 1;
+}
+
+    
+
+
+
