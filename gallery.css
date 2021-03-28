@@ -1,0 +1,157 @@
+
+
+#tubba{
+    margin: auto;
+    width: 60%;
+}
+body{
+    background-color: rgb(157, 197, 228);
+    cursor: url(../images/sootcursor.png), pointer;
+}
+h1{
+    color: ivory;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+h2{
+    color: rgb(91, 62, 18);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    color: rgb(123, 79, 40);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2.bois{
+    position: absolute;
+    right: 300px;
+    top: 1000px;
+}
+h3.ctown{
+    position: absolute;
+    right: 320px;
+    top: 1050px;
+}
+h2.zero{
+    position: absolute;
+    left: 300px;
+    top: 1700px;
+}
+h3.zeroZero{
+    position: absolute;
+    left: 320px;
+    top: 1750px;
+}
+h2.city{
+    position: absolute;
+    right: 300px;
+    top: 2450px;
+}
+h3.building{
+    position: absolute;
+    right: 370px;
+    top: 2500px;
+}
+#cTownBois{
+    position: absolute;
+    left: 250px;
+    top: 800px;
+}
+#zeroZero{
+    position: absolute;
+    right: 250px;
+    top: 1600px;
+}
+#city{
+    position: absolute;
+    left: 250px;
+    top: 2300px;
+    padding-bottom: 100px;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    /* left: 20px; */
+    /* right: 20px; */
+    top: 90px;
+}
+  
+.mySlides {
+    display: block;
+    /* position: relative;
+    left: 130px;
+    right: 130px; */
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 180px;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+    background-color: rgba(91, 62, 18, 0.5);
+}
+  
+.numbertext {
+    color: ivory;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+  
+.caption-container {
+    text-align: left;
+    background-color: transparent;
+    padding: 2px 16px;
+    color: ivory;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+  
+  /* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+  
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+/* back to home */
+#back{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 1;
+}
+#back:hover{
+    opacity: 70%;
+}
